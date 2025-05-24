@@ -1,8 +1,8 @@
 # 📂 Data Analytics Portfolio | 데이터 분석 포트폴리오
 
-This repository introduces selected data analytics projects I have conducted in real-world industrial environments.
+This portfolio is built upon hands-on experience in data analysis across diverse industrial domains, including research, education, system implementation, and applied projects.
 
-본 레포지토리는 실제 산업 현장에서 수행한 데이터 분석 프로젝트들을 소개합니다.
+다양한 제조 및 산업 환경에서의 연구, 교육, 시스템 구축 등 실무 중심의 데이터 분석 경험을 바탕으로 구성된 포트폴리오입니다.
 
 > ⚠️ **Notice / 안내**  
 > Due to corporate confidentiality and intellectual property policies, the source code and internal methodologies **cannot be disclosed publicly**.  
