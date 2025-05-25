@@ -22,11 +22,25 @@ Each project folder includes a `README.md` file describing:
 
 ## 📁 Project Overview | 프로젝트 목록
 
+[Generative AI]
+
+- [1. RAG for AI Manual Search](./brique_rag/README.md)  
+  **AI 솔루션 사용자 매뉴얼 기반 RAG 검색 시스템**  
+  RAG chatbot that retrieves product usage documentation based on user questions.
+
+- [2. GenAI-based RAG & Agent System](./agentic_rag/README.md)  
+  **현장 대응을 위한 Agent 기반 이상 감지 및 조치 시스템 설계**  
+  Agentic RAG pipeline supporting real-time anomaly detection and operational recommendations.
+
+<br>
+
+[Machine Learning & Deep Learning]
+
 - [1. Hyundai Steel – PdM Transition](./hyundai_pdm/README.md)_작성중  
   **노즐 센서 데이터를 활용한 예지보전 전환 분석**  
   Predictive maintenance modeling for continuous casting nozzles.
 
-- [2. Anomaly Detection Model & National R&D](./brique_anomaly_model/README.md) 
+- [2. Anomaly Detection Model & National R&D](./brique_anomaly_model/README.md)  
   **BRIQUE 이상감지 모델 특허 및 실증**  
   Patent-pending anomaly model validated in industrial deployment.
 
@@ -41,14 +55,6 @@ Each project folder includes a `README.md` file describing:
 - [5. Steel Process Optimization (Scrap Clustering)](./dongguk_steel_optimize/README.md)  
   **스크랩 조성 기반 제강 공정의 최적 설비 설정값 탐색**  
   Unsupervised clustering to recommend optimal parameter settings based on scrap type.
-
-- [6. RAG for AI Manual Search](./brique_rag/README.md)  
-  **AI 솔루션 사용자 매뉴얼 기반 RAG 검색 시스템**  
-  RAG chatbot that retrieves product usage documentation based on user questions.
-
-- [7. GenAI-based RAG & Agent System](./agentic_rag/README.md)  
-  **현장 대응을 위한 Agent 기반 이상 감지 및 조치 시스템 설계**  
-  Agentic RAG pipeline supporting real-time anomaly detection and operational recommendations.
 
 ## 🧪 기타 프로젝트 (대외 활동)
 

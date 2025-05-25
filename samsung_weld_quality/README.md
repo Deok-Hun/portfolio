@@ -3,9 +3,14 @@
 - **기간**: 2024.02 ~ 2024.03
 - **기관**: 삼성 생산기술연구소
 - **목표**: 데이터 불균형 환경에서도 **높은 신뢰도의 품질 예측 모델** 개발
-- **기여도**: 80%
-- **활용 기술**: DTW, LDA, UMAP, Random Forest
-- **담당 업무**: 데이터 탐색 및 가설 설정, AI 기반 품질 예측 모델 개발
+- **활용 기술**:
+    - DTW(Dynamic Time Warping)
+    - LDA(Linear Discriminant Analysis)
+    - UMAP(Uniform Manifold Apporximation and Projection)
+    - Random Forest
+- **담당 업무**: 데이터 탐색 및 가설 설정, AI 기반 품질 예측 
+모델 개발
+- **결과**: f1 score 0.73 -> 0.97 로 성능 개선
 
 ## 프로젝트 배경 및 목적
 고객사는 공정 최적화를 통해 불량률이 낮았으나, 출고 전 불량을 보다 정확히 예측하여 품질 관리 수준을 향상하고자 함. 데이터 불균형 문제로 인해 기존 품질 예측 모델의 성능 개선이 필요
@@ -32,14 +37,16 @@
     ![](./img/img1.webp)
     
 ### 3. 모델 개발
-- 설정한 가설을 바탕으로 DTW(Dynamic Time Warping) 변수를 생성하여 데이터 특성을 반영
+- 설정한 가설을 바탕으로 DTW 변수를 생성하여 데이터 특성을 반영
 - 클래스 간 경계를 더욱 명확히 하기 위해, 이진 분류 문제임에도 불구하고 선형판별분석(LDA)을 활용하여 차원을 축소하고 새로운 변수를 생성
-- UMAP(Uniform Manifold Apporximation and Projection)의 하이퍼파라미터를 조정하여 클래스 간 거리를 최대화하며, 모델의 분류 성능을 개선
+- UMAP의 하이퍼파라미터를 조정하여 클래스 간 거리를 최대화하며, 모델의 분류 성능을 개선
 - 최종적으로 Random Forest 모델을 적용하여 학습 및 검증 수행
 
 
 ## Results
 - Basedline 모델 대비 아주 우수한 모델 성능 확보
 - f1 score 0.73 -> 0.97
+
+[(왼) BasedLine-Oneclass SVM /   (우)최종 개발 모델-RandomForest]
+
 ![](./img/img2.webp)
-[왼) BasedLine-Oneclass SVM, 우)최종 개발 모델-RandomForest]
