@@ -36,7 +36,7 @@ Each project folder includes a `README.md` file describing:
 
 [Machine Learning & Deep Learning]
 
-- [1. Hyundai Steel – PdM Transition](./hyundai_pdm/README.md)_작성중  
+- [1. Hyundai Steel – PdM Transition](./hyundai_pdm/README.md)   
   **노즐 센서 데이터를 활용한 예지보전 전환 분석**  
   Predictive maintenance modeling for continuous casting nozzles.
 
